@@ -16,7 +16,7 @@ const App: React.FC = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('public/images/red.jpg')",
+          backgroundImage: "url('/images/red.jpg')",
           filter: 'grayscale(80%) contrast(1.1) brightness(0.9)',
         }}
       ></div>
